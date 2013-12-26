@@ -156,3 +156,23 @@ format_png
 	*);
 => nrel_mimetype:
 	[image/png];;
+
+
+// ======= Pdf ========
+
+// --- pdf ---
+format_pdf
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат pdf] 
+	(* 
+	<- lang_ru;; 
+	*);
+=> nrel_main_idtf: 
+	[format pdf] 
+	(* 
+	<- lang_en;; 
+	*);
+=> nrel_mimetype:
+	[text/html];;

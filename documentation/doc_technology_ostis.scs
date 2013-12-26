@@ -9,6 +9,12 @@ doc_technology_ostis
 	(*
 	<- lang_en;;
 	*);
+=> nrel_main_idtf:
+	[http://bsuir-helper.ru/sites/default/files/2013/01/05/met/Ekonomika_predpriyatiya_otrasli_Lab_praktikum.pdf]
+	(*
+	=> nrel_format:
+		format_pdf;;
+	*);
 
 <= nrel_section_decomposition:
     {
